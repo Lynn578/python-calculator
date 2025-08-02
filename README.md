@@ -17,3 +17,29 @@ The Basic Calculator is a simple Python program that allows users to perform bas
 
 ## Example
 
+Welcome to the Basic Calculator!
+Available operations: + (addition), - (subtraction), * (multiplication), / (division)
+Enter the first number: 10
+Enter the second number: 5
+Enter the operation (+, -, *, /): *
+10.0 * 5.0 = 50.0
+
+
+## Requirements
+- Python 3.x
+
+## Error Handling
+- If the user inputs non-numeric values for the numbers, the program will display:
+
+Error: Please enter valid numbers.
+
+- If the user inputs an invalid operation symbol, the program will display:
+Invalid operation. Please use +, -, *, or /.
+
+- If division by zero is attempted, the program will display:
+- Error: Division by zero is not allowed.
+
+- 
+## How to Run
+Run the script in the command line or any Python IDE:
+python calculator.py
